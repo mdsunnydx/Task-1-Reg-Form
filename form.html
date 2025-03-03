@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+   <header>
+    <img src="./images/Information_and_Communication_Technology_Division.svg.png" alt="ict division logo " width="100 px">
+    <table width="100%" border="1">
+        <tr>
+            <td><a href="#">Home</a></td>
+            <td><a href="#">Course Module-2020</a></td>
+            <td><a href="#">Class Schedule</a></td>
+            <td><a href="#">Success Story</a></td>
+            <td><a href="#">Attendance</a></td>
+            <td><a href="#">FAQ</a></td>
+            <td><a href="#">Log in</a></td>
+        </tr>
+    </table>
+   </header>
+
+  
+
+    <!-- Student Registration Form -->
+    <h2>Student Registration Form</h2>
+    <form>
+        <label for="district">District/Upazila:</label>
+        <select id="district" name="district">
+            <option value="" selected disabled>- Select One -</option>
+            <option value=""> Dhaka -</option>
+            <option value=""> Barishal -</option>
+            <option value=""> Khulna -</option>
+        </select>
+        <br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value=""selected disabled>- Select One -</option>
+            <option value=""selected disabled> Networking </option>
+            <option value=""selected disabled> App Development </option>
+            <option value=""selected disabled> Web Development </option>
+        </select>
+        <br><br>
+
+        <label for="student_name">Student Name:</label>
+        <input type="text" id="student_name" name="student_name">
+        <br><br>
+
+        <label for="father_name">Father's Name:</label>
+        <input type="text" id="father_name" name="father_name">
+        <br><br>
+
+        <label for="mother_name">Mother's Name:</label>
+        <input type="text" id="mother_name" name="mother_name">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <label>Physically Handicapped?:</label>
+        <input type="radio" name="handicap" value="yes"> Yes
+        <input type="radio" name="handicap" value="no"> No
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="phone">Phone Number (11 Digits):</label>
+        <input type="text" id="phone" name="phone">
+        <br><br>
+
+        <label for="identification">Identification Type:</label>
+        <select id="identification" name="identification">
+            <option value=""selected disabled>- Select One -</option>
+            <option value=""> Nid </option>
+            <option value=""> Passport </option>
+            <option value=""> Driving License </option>
+        </select>
+        <br><br>
+
+        <label for="home_district">Home District:</label>
+        <select id="home_district" name="home_district">
+            <option value=""selected disabled>- Select One -</option>
+            <option value="">- Dhaka -</option>
+            <option value="">- Khulna -</option>
+            <option value="">- Barishal </option>
+        </select>
+        <br><br>
+
+        <label for="upazila">Upazila:</label>
+        <select id="upazila" name="upazila">
+            <option value=""selected disabled>- Select One -</option>
+            <option value=""> Savar </option>
+            <option value=""> Dohar </option>
+            <option value=""> Gazipur </option>
+
+        </select>
+        <br><br>
+
+        <label for="address">Village/House No./Road No./Other Alternative:</label>
+        <input type="text" id="address" name="address">
+        <br><br>
+
+        <label for="post_office">Post Office:</label>
+        <input type="text" id="post_office" name="post_office">
+        <br><br>
+
+        <label for="qualification">Educational Qualification (Higher Level):</label>
+        <select id="qualification" name="qualification">
+            <option value=""selected disabled>- Select One -</option>
+            <option value="">- Bsc -</option>
+            <option value="">- Msc -</option>
+        </select>
+        <br><br>
+
+        <label>Have any computer?</label>
+        <input type="radio" name="computer" value="yes"> Yes
+        <input type="radio" name="computer" value="no"> No
+        <br><br>
+
+        <label for="picture">Picture:</label>
+        <input type="file" id="picture" name="picture">
+        <br><br>
+
+        <label for="signature">Signature:</label>
+        <input type="file" id="signature" name="signature">
+        <br><br>
+
+        <input type="submit" value="Submit Data">
+    </form>
+
+</body>
+</html>
